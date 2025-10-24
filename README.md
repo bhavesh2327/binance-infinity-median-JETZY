@@ -70,12 +70,12 @@ ws.onmessage = (msg) => console.log(JSON.parse(msg.data));
 
 ### 🧱 Directory Structure
 File / Folder	Description
-index.js	Application entry point
-src/config/httpServer.js	Express server setup with WebSocket integration
-src/routes/apiRoutes.js	REST API routes
-src/services/medianManager.js	Handles active trading pairs and median state
-src/services/priceStream.js	Binance WebSocket connection and streaming logic
-src/lib/rollingMedian.js	Two-heaps streaming median implementation
-src/lib/random.js	Random trading pair selection
-tests/	Jest test suite
+index.js	: Application entry point
+src/config/httpServer.js	: Express server setup with WebSocket integration
+src/routes/apiRoutes.js : 	REST API routes
+src/services/medianManager.js : 	Handles active trading pairs and median state
+src/services/priceStream.js :	Binance WebSocket connection and streaming logic
+src/lib/rollingMedian.js	: Two-heaps streaming median implementation
+src/lib/random.js	L Random trading pair selection
+tests/	: Jest test suite
 
