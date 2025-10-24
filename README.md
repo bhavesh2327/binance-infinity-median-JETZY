@@ -49,7 +49,7 @@ git clone https://github.com/bhavesh2327/binance-infinity-median-JETZY.git
 cd binance-infinity-median-JETZY
 
 ###Step 2 : Setup .env file
-PORT=3005(Example).
+PORT=3000(Example).
 
 
 ### Install Dependencies
